@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="" />
   <meta name="author" content="Hamza Yahaya" />
+  <meta name="keywords" content="Python,HTML,jquery,Javascript,CSS,PostgreSQL,SQL,Vagrant,Ubuntu">
   <title>Hamza Yahaya</title>
 
   <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" />
@@ -38,7 +39,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{{url_for('index')}}">
           Hamza Yahaya
         </a>
       </div>
@@ -58,15 +59,9 @@
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/cruzancaramele" target="_blank">
-              <i class="fa fa-twitter"></i>
-              Twitter
-            </a>
-          </li>
-          <li>
-            <a href="https://medium.com/@Hamza_Y" target="_blank">
-              <i class="fa fa-medium"></i>
-              Medium
+            <a href="{{url_for('skills')}}">
+              <i class="fa fa-terminal"></i>
+              Skills
             </a>
           </li>
         </ul>
@@ -136,7 +131,7 @@
             </div>
           </div>
         </a>
-        <a href="http:/52.27.136.80" class="card-anchor" target="_blank">
+        <a href="http://54.149.46.103" class="card-anchor" target="_blank">
           <div class="media card">
             <div class="media-left">
               <img class="media-object" width="32" src="../static/img/unis.jpg" alt="icon">
@@ -245,7 +240,7 @@
       </div>
     </section>
 {% endblock %}
-    <footer></footer>
+
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
