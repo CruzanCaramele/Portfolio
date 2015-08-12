@@ -19,6 +19,8 @@ def skills():
 	return render_template("skills.html")
 
 
+
+
 if __name__ == '__main__':
 	app.run(debug=DEBUG,
 		  port=PORT,
