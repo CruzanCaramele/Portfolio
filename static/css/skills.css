@@ -1,9 +1,10 @@
 
+
 #resumeProficiencies {
 	float: left;
 	clear: right;
 	width: 500px;
-	margin: 20px 0px 30px 30px;
+	margin: 20px 50px 0px 0px;
 }
 
 #resumeProficienciesTop {
@@ -22,6 +23,11 @@
 	margin: 2px 0px 0px 0px;
 }
 
+#resumeProficienciesColTwo {
+	margin-top: 20px;
+}
+
+
 .progress {
 	background:#e9e5e2;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#dddddd), to(#e9e5e2));
@@ -37,10 +43,13 @@
 	box-shadow: 0 1px 0px #bbbbbb inset, 0 1px 0 #fcfcfc;	  
 }
 
-.python, .html, .css, .jquery, .javascript, .bootstrap, .wordpress, .flask, .django {
+.python, .html, .css, .jquery, .javascript, .bootstrap, .wordpress, 
+.flask, .django, .postgreSQL, .json, .sql, .unix, .api, .apache {
 
  -webkit-transition: width 4.50s ease !important;
  -moz-transition: width 4.50s ease !important;
    -o-transition: width 4.50s ease !important;
       transition: width 4.50s ease !important;
  }
+
+

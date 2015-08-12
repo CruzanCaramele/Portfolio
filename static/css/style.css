@@ -27,8 +27,11 @@
 .media {
   height: 60px;
 }
+.verticalLine {
+    border-left :1px solid #d7e0e2;
+}
 
-footer {
-  height: 100px;
+.topic-headers {
+  margin-top: 20px;
 }
 
