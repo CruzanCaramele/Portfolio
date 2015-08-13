@@ -25,6 +25,7 @@
 
 #resumeProficienciesColTwo {
 	margin-top: 20px;
+
 }
 
 
@@ -43,8 +44,7 @@
 	box-shadow: 0 1px 0px #bbbbbb inset, 0 1px 0 #fcfcfc;	  
 }
 
-.python, .html, .css, .jquery, .javascript, .bootstrap, .wordpress, 
-.flask, .django, .postgreSQL, .json, .sql, .unix, .api, .apache {
+.python, .html, .css, .jquery, .javascript, .bootstrap, .flask, .django, .postgreSQL, .json, .sql, .unix, .api, .apache, .tcp {
 
  -webkit-transition: width 4.50s ease !important;
  -moz-transition: width 4.50s ease !important;
