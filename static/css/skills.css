@@ -44,7 +44,7 @@
 	box-shadow: 0 1px 0px #bbbbbb inset, 0 1px 0 #fcfcfc;	  
 }
 
-.python, .html, .css, .jquery, .javascript, .bootstrap, .flask, .django, .postgreSQL, .json, .sql, .unix, .api, .apache, .tcp {
+.python, .html, .css, .jquery, .javascript, .bootstrap, .flask, .django, .postgreSQL, .json, .sql, .unix, .api, .apache, .git, .docker, .jenkins, .packer, .chef, .oracle, .vagrant {
 
  -webkit-transition: width 4.50s ease !important;
  -moz-transition: width 4.50s ease !important;
