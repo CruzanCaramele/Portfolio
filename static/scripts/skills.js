@@ -12,6 +12,14 @@ $(document).ready(function() {
 	$(".unix").css("width", "50%")
 	$(".api").css("width", "55%")
 	$(".apache").css("width", "78%")
-	$(".tcp").css("width", "70%")
+	$(".git").css("width", "90%")
+
+	//DEVOPS
+	$(".chef").css("width", "44%")
+	$(".jenkins").css("width", "35%")
+	$(".docker").css("width", "69%")
+	$(".packer").css("width", "60%")
+	$(".oracle").css("width", "79%")
+	$(".vagrant").css("width", "80%")
 
 });
